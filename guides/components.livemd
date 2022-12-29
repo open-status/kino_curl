@@ -1,0 +1,14 @@
+# Components
+
+```elixir
+Mix.install([
+  {:kino_curl, "~> 0.1.0"}
+])
+```
+
+## Smart cells
+
+The following Smart cells are available:
+
+* **cURL Command** - for executing `curl` commands in Elixir from a Livebook
+
