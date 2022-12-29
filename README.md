@@ -1,9 +1,9 @@
-# KinoCurl
+# KinoCurl [![CI](https://github.com/open-status/kino_curl/actions/workflows/ci.yml/badge.svg)](https://github.com/open-status/kino_curl/actions/workflows/ci.yml) [![Hex.pm](https://img.shields.io/hexpm/v/kino_curl.svg)](https://hex.pm/packages/kino_curl) [![Hexdocs.pm](https://img.shields.io/badge/hex-docs-lightgreen.svg)](https://hexdocs.pm/kino_curl/)
 
 cURL integration with [Kino](https://github.com/livebook-dev/kino) for [Livebook](https://github.com/livebook-dev/livebook).
 Automatically converts `curl` commands into executable Elixir code.
 
-![](./demo.gif)
+<img src="./demo.gif" height="600" />
 
 ## Installation
 
