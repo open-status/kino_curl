@@ -3,7 +3,7 @@
 cURL integration with [Kino](https://github.com/livebook-dev/kino) for [Livebook](https://github.com/livebook-dev/livebook).
 Automatically converts `curl` commands into executable Elixir code.
 
-<img src="./demo.gif" height="600" />
+<img src="./demo.gif" width="800" height="auto" />
 
 ## Installation
 
