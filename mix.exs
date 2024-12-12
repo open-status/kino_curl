@@ -24,6 +24,7 @@ defmodule KinoCurl.MixProject do
 
   defp deps do
     [
+      {:ex_doc, "~> 0.35", only: :dev, runtime: false},
       {:kino, "~> 0.8.0"},
       {:jason, ">= 1.0.0"},
       {:ex_curl, "~> 0.3.0"}
