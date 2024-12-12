@@ -6,7 +6,7 @@ defmodule KinoCurl.MixProject do
   def project do
     [
       app: :kino_curl,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.14",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
@@ -24,9 +24,10 @@ defmodule KinoCurl.MixProject do
 
   defp deps do
     [
+      {:ex_doc, "~> 0.35", only: :dev, runtime: false},
       {:kino, "~> 0.8.0"},
       {:jason, ">= 1.0.0"},
-      {:ex_curl, "~> 0.2.1"}
+      {:ex_curl, "~> 0.3.0"}
     ]
   end
 
