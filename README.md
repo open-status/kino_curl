@@ -15,8 +15,11 @@ Mix.install([
 ])
 ```
 
+## See also
+
+If you're using [Req](https://github.com/wojtekmach/req) in your Livebook you may also be interested in [Merquery](https://github.com/acalejos/merquery) and [curl_req](https://github.com/derekkraan/curl_req).
+
 ## Notes
 
 - [parse-curl.js](https://github.com/tj/parse-curl.js) is currently being used for parsing cURL commands including the flags/arguments.
 - [ex_curl](https://github.com/open-status/ex_curl) is being used for executing requests using native libcurl code. This means libcurl must be present in the runtime environment.
-
